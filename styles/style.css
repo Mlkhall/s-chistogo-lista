@@ -24,8 +24,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .content-section_theme_bright {
-   background-color: #FEE42A;
-   color: #131313;
+    background-color: #FEE42A;
+    color: #131313;
 }
 
 .content-section__subtitle {
@@ -105,9 +105,11 @@ header {
 .accent-span {
     display: block;
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-right {
     text-align: right;
 }
@@ -251,7 +253,7 @@ header {
     column-gap: 16px;
 }
 
-.footer__links a{
+.footer__links a {
     color: #F5F5F5;
     font-size: 14px;
     line-height: 125%;
