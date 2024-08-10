@@ -115,7 +115,7 @@ header {
 
 /*intro*/
 .intro {
-    padding: 0 24px 20px;
+    padding: 0 20px 37px;
 }
 
 .intro__heading {
@@ -141,7 +141,7 @@ header {
     line-height: 1.35;
 }
 
-.intro__main-text.p:first-child {
+.intro__main-text p:first-child {
     margin-bottom: 24px;
 }
 
@@ -159,7 +159,9 @@ header {
 }
 
 .content-section__list {
-    padding: 0 0 0 13px;
+    padding: 0 0 0 15px;
+    font-size: 16px;
+    line-height: 1.35;
 }
 
 .content-section__list-accent {
@@ -168,6 +170,8 @@ header {
 
 .content-section__list-item {
     margin-bottom: 16px;
+    margin-left: 0;
+    flex: 1 0 0;
 }
 
 .content-section__list-item:last-child {
@@ -184,11 +188,14 @@ header {
     border-radius: 30px;
 }
 
+.card:last-child {
+    margin-bottom: 20px;
+}
+
 .cards-list {
     display: flex;
     flex-direction: column;
     list-style: none;
-    gap: 8px;
 }
 
 .card_theme_dark {
@@ -210,7 +217,7 @@ header {
 .card__author-photo {
     width: 100px;
     height: 100px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     border-radius: 50%;
 }
 
@@ -220,6 +227,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 1.35;
+    margin-bottom: 6px;
 }
 
 .card__title {
@@ -228,7 +236,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 1.35;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .card__text {
