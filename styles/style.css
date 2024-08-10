@@ -42,7 +42,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 132px;
     padding: 24px 20px;
     align-items: flex-start;
     flex-shrink: 0;
@@ -86,7 +85,7 @@ header {
 /*Cover*/
 .cover {
     padding: 7px 24px 32px 20px;
-    background-image: url("/images/cover.svg");
+    background-image: url("../images/cover.svg");
     background-repeat: no-repeat;
     background-size: 94.7% auto;
     background-position: right center;
@@ -212,6 +211,7 @@ header {
     width: 100px;
     height: 100px;
     margin-bottom: 8px;
+    border-radius: 50%;
 }
 
 .card__author-name {
