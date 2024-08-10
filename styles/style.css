@@ -76,11 +76,11 @@ header {
 .header__menu-link {
     color: #F5F5F5;
     line-height: 1.2;
-    text-decoration: none;
+    text-decoration-line: underline;
 }
 
 .header__menu-item_active {
-    text-decoration-line: underline;
+    text-decoration: none;
 }
 
 /*Cover*/
@@ -142,9 +142,10 @@ header {
     line-height: 1.35;
 }
 
-.intro__main-text__p1 {
+.intro__main-text.p:first-child {
     margin-bottom: 24px;
 }
+
 
 /*Reasons*/
 .reasons {
